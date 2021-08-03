@@ -1,0 +1,123 @@
+*{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+   color: rgb(168,168,168)
+ }
+.hero{
+   height: 100vh;
+   width: 100%;
+   background-image: url(https://smileworld.in/wp-content/uploads/2020/06/Cool-Boy-Hidden-Face-DP-Images-for-Whatsapp.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+.logo{
+   color: white;
+   font-size: 35px;
+   letter-spacing: 1px;
+}
+span{
+   color: rgb(93,236,93);
+    }
+.hero.nav h2:hover{
+   text-shadow:10px 5px 5px rgb(255,255,255);
+   cursor: pointer;
+   }
+
+.nav{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 24px;
+     padding-left: 8%;
+     padding-right: 8%;
+    }
+.nav ul li{
+    display: inline-block;
+    padding: 10px 30px; 
+    }
+.nav ul li a{
+   color: white;
+   font-size:1.2rem;
+   text-decoration: none;
+    }
+.nav ul li a:hover{
+    color:rgb(93,236,93);
+    }
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;  
+}
+.btn:hover{
+    transform: scale(1.1);
+  }
+.contant{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 10px 0px;
+    font-size: 64px;
+}
+
+h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+h4{
+    color: rgb(197, 197, 197);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.formstyle form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.formstyle form input:first-child {
+    width: 100%;
+    display: inline-block;
+    padding: 14px 128px 14px 15px;
+    border: 2px solid rgb(93, 236, 93);
+    border-radius: 24px;
+}
+.formstyle form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 24px;
+    background-color: rgb(93, 236, 93);
+    color: white;
+    top: 6px;
+    right: 8px;
+}
+
+.contant .icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contant .icons .footIcon{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+}
+.contant .iconss .footIcon .icon{
+    display: inline-block;
+}
+
+.contant .iconss .footIcon a:hover{
+    text-shadow: 12px 12px 12px white;
+}
